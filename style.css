@@ -1,0 +1,119 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+/* Estilos gerais */
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    background-color: #ecbb8d;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+main {
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+}
+
+/* Estilos das seções */
+.section {
+    background-color: #96a9e9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.section:hover {
+    background-color: #aab6da;
+    transition: 0.3s;
+}
+
+/* Estilos dos botões */
+.button {
+    background-color: #7391d1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #4850a1;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+}
+
+.button:hover {
+    background-color: #c2c3dd;
+    transition: 0.5s;
+}
+
+/* Estilos específicos para a seção 'helloWorld' */
+.helloWorld button {
+    background-color: #7391d1;
+}
+
+/* Estilos específicos para a seção 'sum' */
+.sum {
+    background-color: #96a9e9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sum:hover,
+.byId:hover,
+.byClass:hover,
+.byName:hover {
+    background-color: #aab6da;
+    transition: 0.3s;
+}
+
+
+.sum button,
+.sum input {
+    background-color: #7391d1;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #4850a1;
+    color: #fff;
+    height: 40px;
+    width: 100px; /* Ajustado para garantir que o botão se encaixe corretamente */
+    max-width: 100px; /* Adicionado para evitar transbordamento */
+}
+
+
+
+/* Estilos específicos para a seção 'byId', 'byName' e 'byClass' */
+.byId button,
+.byName button,
+.byClass button {
+    background-color: #7391d1;
+}
+
+.byName div,
+.byClass div,
+.byId div {
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <title>JavaScript</title>
+</head>
+<body>
+    <main>
+        <div class="section helloWorld">
+            <p>(1) Faça uma mensagem de 'Olá Mundo’</p>
+            <button onclick="helloWorld()" class="button">Clique aqui</button>
+            <h1 id="helloWorldText"></h1>
+        </div>
+
+        <div class="section sum">
+            <p>(2) Faça uma saída de soma de 2 inteiros</p>
+            <div>
+                <div>
+                    <label for="number1">Número 1:</label>
+                    <input type="text" id="number1">
+                </div>
+                <div>
+                    <label for="number2">Número 2:</label>
+                    <input type="text" id="number2">
+                </div>
+                <button onclick="sum()" class="button">Somar</button>
+            </div>
+            <p id="sumMessage"></p>
+            <p id="sumResult"></p>
+        </div>
+
+        <div class="section byId">
+            <p>(3) Altera a propriedade de um elemento por id</p>
+            <div id="changeById"></div>
+            <button onclick="colorById()" class="button">Trocar cor</button>
+        </div>
+        
+
+        <div class="section byName">
+            <p>(4) Altere a propriedade de um elemento por name</p>
+            <div name="changeByName"></div>
+            <button onclick="colorByName()" class="button">Trocar cor</button>
+        </div>
+
+        <div class="section byClass">
+            <p>(5) Altere a propriedade de um elemento por class</p>
+            <div class="changeByClass"></div>
+            <button onclick="colorByClass()" class="button">Trocar cor</button>
+        </div>
+    </main>
+</body>
+</html>
